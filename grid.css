@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient( 114.3deg,  rgba(49,75,90,1) 48.8%, rgba(3,155,193,1) 94.9% );
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.timeline {
+    display: grid;
+    max-width: 80%;
+    margin: auto;
+    
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 500px;
+    grid-template-areas: 'esquerda' 'esquerda' 'esquerda''esquerda''esquerda''esquerda''esquerda''esquerda''esquerda''esquerda';   
+    grid-auto-rows: 500px;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(31, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    grid-column: 1 / -1;
+
+}
+
+.foto:nth-child(odd) {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;
+}
+
+.timeline.container:nth-child(even) {
+    grid-column: 24 / span 2;
+    grid-row: 2 / span 2;
+}
+
+h2 {
+    color: white;
+    
+}
+
+p {
+    color: white;
+}
+
+.esquerda {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;
+}
+
+.direita {
+    grid-column: 24 / span 2;
+    grid-row: 2 / span 2;
+}
+
