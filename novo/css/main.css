@@ -1,0 +1,133 @@
+nav {
+    width: 100%;
+    color: white;
+   
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+body {
+    min-width: 360px;
+    font-size: 7px;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 30%;
+    padding-left: 15px;
+}
+
+.bem-vindo {
+    color: yellow;
+    position: absolute;
+    top: 45%;
+    padding-left: 20px;
+}
+
+#inicio {
+    margin: 15px 20px;
+    opacity: 0.9;
+    background-image: url('../mostra-bg.jpg');
+    width: calc(100%-40px);
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px;
+    min-height: 300px;
+    background-size: 100% 100%;
+    display: block;
+    position: relative;
+}
+
+#mostra {
+    margin: 30px;
+    background: lightblue;
+    padding: 30px 0px 30px 0px;
+    box-shadow: 4px 4px 4px;
+}
+
+#mostra img {
+    border-radius:50%;
+    border: 1px solid goldenrod;
+      
+}
+
+#mostra figcaption {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+#mostra p {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 2.61111111em;
+    color: #222222;
+    line-height: 1.36170213em;
+    
+}
+
+
+.centered-and-cropped { 
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+
+#divisoria-equipes {
+    height: 3px;
+    width: 85%;
+    border-top: 5px solid black;
+
+}
+
+.timeline-start {
+    position: relative;
+    height: 47px;
+    width: 86px;
+    border: 1px solid black;
+    font-size: 20px;
+    background: #00b0bd;
+    color: #fff;
+
+}
+
+.timeline-start p {
+    position: absolute;
+    width: 100%;
+    left: 8px;
+    top: 15px;
+    margin-bottom: 30px;
+}
+
+hr {
+    border-bottom: 30px;
+}
+
+#equipes {
+    border-top: 10px;
+    background: #e6e6e6
+}
+
+@media (min-width: 768px) { 
+   
+    
+}
+
+@media (min-width: 992px) {
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
