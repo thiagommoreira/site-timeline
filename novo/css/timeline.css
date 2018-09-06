@@ -110,7 +110,7 @@
 @media (min-width: 768px) {
     .container {
         grid-auto-rows: 250px;
-        grid-gap: 30px;
+        grid-gap: 80px;
         margin: auto;
         align-content: center;
     }
